@@ -1,0 +1,32 @@
+<!--
+    Author : Karthik Saride
+    ID : C0886429
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cash Conversion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/styles.css'>
+    <script src='../Js/conversion.js'></script>
+</head>
+<body>
+    <div class="container">
+    <h1>US Dollar to Canadian Dollar</h1>
+    <h3>Convert USD to CAD at real exchange rate</h3>
+    </div>
+    <div class="converter">
+        <label for="cadAmount"> CAD Amount: </label>
+        <input type="number" id="cadAmount">
+        <button onclick="convertCADtoUSD()">Convert</button>
+        <p id="usdResult"></p>
+        <label for="usdAmount"> USD Amount: </label>
+        <input type="number" id="usdAmount">
+        <button onclick="convertUSDtoCAD()">Convert</button>
+        <p id="cadResult"></p>
+    </div>
+</body>
+</html>
